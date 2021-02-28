@@ -1,0 +1,643 @@
+
+body {
+    background: #f2f2f2;
+    font-family: 'Hiragino Sans GB', "Microsoft Yahei", "微软雅黑", sans-serif
+}
+
+main {
+    padding: 10px;
+    display: inline-block;
+}
+
+main .lin-canvas-container {
+    float: left;
+    min-width: 400px
+}
+
+main .lin-code-container {
+    float: left;
+    min-width: 400px
+}
+
+main .lin-button-block {
+    width: 100%
+}
+
+#id-canvas {
+    background: #fff
+}
+
+body {
+    font: 14px 'PingFang SC', Helvetica, sans-serif, Raleway, HNL, 'Noto Sans CJK TC', 'Microsoft JhengHei'
+}
+
+a {
+    cursor: pointer;
+    color: #d70f3f;
+    text-decoration: none
+}
+
+.sidebar li {
+    margin: 10px 0
+}
+
+.sidebar a .time {
+    display: block;
+    color: #777;
+    margin: 2px 0
+}
+
+.sidebar a .title {
+    display: block;
+    color: #0078e7;
+    line-height: 1.4
+}
+
+.gua-right {
+    float: right
+}
+
+a.gua-active {
+    background: red
+}
+
+body {
+    padding-top: 62px
+}
+
+nav#id-nav {
+    background: rgba(203, 27, 69, .98);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    opacity: 1
+}
+
+a.gua-nav-link {
+    height: inherit;
+    float: left;
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+a.gua-nav-image {
+    padding: 5px 20px 5px 20px;
+    height: inherit;
+    cursor: pointer
+}
+
+a.gua-nav-image:hover,
+a.gua-nav-link:hover {
+    background-color: #b4183d
+}
+
+.gua-nav-item {
+    margin: 0;
+    padding: 5px 0;
+    display: inline-block
+}
+
+.gua-nav-item:hover {
+    background: #95dada
+}
+
+.gua-nav-item > a {
+    text-decoration: none;
+    color: #2f4f4f
+}
+
+.gua-nav-item.active > a {
+    background: #cb1b45;
+    color: #efd7d7
+}
+
+.gua-nav-item > a:hover {
+    background: #2f4f4f;
+    color: #fff
+}
+
+.gua-block {
+    overflow: hidden;
+    padding: 5px
+}
+
+.gua-block:hover {
+    background: #95dada
+}
+
+.gua-activity {
+    border-bottom: 1px dashed #d3d3d3
+}
+
+.gua-activity > div {
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px
+}
+
+.gua-activity > .gua-title {
+    position: relative
+}
+
+a.gua-topic-link {
+    text-decoration: none
+}
+
+.gua-topic-title {
+    padding-right: 42px;
+    color: #2f4f4f;
+    font-size: 20px
+}
+
+.gua-topic-time {
+    font-size: 13px;
+    color: #778899
+}
+
+.gua-topic-views {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    border-radius: 5px;
+    background: #ff8c00;
+    padding: 4px;
+    color: #fff
+}
+
+.gua-activity > img.gua-avatar {
+    float: left;
+    margin-top: 8px;
+}
+
+.gua-left {
+    width: 200px;
+    position: fixed
+}
+
+.gua-center {
+    margin-left: 200px
+}
+
+.gua-button-toggle-update {
+    float: right;
+    margin-left: 10px
+}
+
+.gua-button-delete {
+    float: right;
+    margin-left: 10px
+}
+
+.gua-button-submit {
+    float: right;
+    margin-left: 10px
+}
+
+.gua-button-cancel {
+    float: right;
+    margin-left: 10px
+}
+
+input,
+textarea {
+    box-sizing: border-box
+}
+
+.gua-full {
+    width: 100%
+}
+
+.gua-content {
+    margin-top: .5%;
+    margin-bottom: .5%;
+    font-size: 14px
+}
+
+textarea.gua-content {
+    height: 200px
+}
+
+.markdown-body {
+    max-width: 980px;
+    font-size: 14px !important
+}
+
+.markdown-body pre {
+    background-color: transparent !important;
+    font-size: 100% !important
+}
+
+.pure-u-1-4.gua-left.gua-nav {
+    position: static;
+    width: 100%;
+    padding: 10px 0;
+    background: #fbf9f2
+}
+
+.pure-u-1-4.gua-left.gua-nav h2 a {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 5px;
+    border-radius: 4px;
+    padding: 4px 5px
+}
+
+.pure-u-1-4.gua-left.gua-nav h2 .active {
+    background: #f0ead1
+}
+
+.pure-u-1-4.gua-left.gua-nav h2 .active:hover {
+    color: #998f66
+}
+
+.pure-u-3-4.gua-center {
+    width: 100%
+}
+
+.gua-center {
+    margin: 0
+}
+
+.main {
+    width: 90%;
+    max-width: 1400px;
+    min-width: 960px;
+    margin: 15px auto;
+    min-height: 100vh;
+    overflow: hidden
+}
+
+.sidebar {
+    width: 250px;
+    font-size: 14px;
+    float: right;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.sidebar div {
+    background: #fbf9f2;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 300px
+}
+
+#id-console {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#id-button-toggle-update {
+    color: #add8e6;
+    background: pink
+}
+
+.gua-block > div,
+.gua-topic-time {
+    color: #998f66
+}
+
+.markdown-body > p {
+    color: #000
+}
+
+.gua-avatar {
+    display: inline-block;
+    box-sizing: content-box;
+    color: #fff;
+    text-align: center;
+    vertical-align: top;
+    background-color: #f6f3e4;
+    font-weight: 400;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    font-size: 24px;
+    line-height: 48px
+}
+
+.gua-block:hover,
+.gua-nav-item:hover {
+    background: 0 0
+}
+
+.gua-nav-item > a {
+    display: block;
+    color: #998f66
+}
+
+a.gua-nav-image {
+    height: 55px;
+    padding: 5px 20px 0 20px;
+    overflow: hidden
+}
+
+.gua-block.gua-activity:hover {
+    background: #fbf9f2
+}
+
+#button-run,
+#id-button-login,
+#id-button-register,
+#id-button-sendEmail,
+#id-button-submit,
+#id-button-reset,
+#id-button-toggle,
+#id-button-toggle-comment,
+#id-button-toggle-update {
+    color: #fff;
+    background: #cb1b45;
+    font-weight: 700
+}
+
+#button-run:hover,
+#id-button-submit:hover,
+#id-button-reset:hover,
+#id-button-toggle-comment:hover,
+#id-button-toggle-update:hover,
+#id-button-toggle:hover {
+    background-color: #b4183d
+}
+
+#id-button-toggle-answer {
+    color: #fff;
+    background: #cb1b45;
+    font-weight: 700
+}
+
+#id-button-modsignature,
+.gua-content,
+.gua-full,
+.gua-full.gua-content.pure-input-1,
+.gua-submit,
+.pure-form input[type=submit] {
+    outline: 0
+}
+
+.markdown-body a {
+    margin-top: 8px;
+    margin-right: 20px;
+    white-space: normal;
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #d70f3f
+}
+
+.gua-topic-views {
+    top: 10px;
+    font-size: 85%;
+    font-weight: 600;
+    display: inline-block;
+    padding: .1em .5em;
+    border-radius: 4px;
+    text-transform: none;
+    color: #fff;
+    background-color: #e7672e
+}
+
+#id-button-modsignature,
+.gua-submit,
+.pure-form input[type=submit] {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 20px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    user-select: none;
+    color: #998f66;
+    background: #f6f3e4;
+    border: 0
+}
+
+#id-button-modsignature:hover,
+.gua-submit:hover,
+.pure-form input[type=submit]:hover {
+    background-color: #f0ead1
+}
+
+#id-button-modsignature,
+.gua-full.gua-content,
+.pure-form input[type=submit],
+textarea.gua-content {
+    padding-left: 10px
+}
+
+#id-input-signature:focus,
+.gua-full.gua-content.pure-input-1:focus,
+.gua-full.gua-content:focus,
+textarea.gua-content:focus {
+    outline: #cb1b45 2px solid
+}
+
+.gua-title {
+    border: none;
+    font-size: 20px
+}
+
+.gua-title:hover {
+    background: #fbf9f2
+}
+
+a.gua-active {
+    background: #cc1f49
+}
+
+#id-button-login {
+    color: #fff;
+    background: #cb1b45;
+    font-weight: 700;
+    cursor: pointer
+}
+
+#id-button-captcha {
+    background-color: #cb1b45;
+    border: 1px solid #cb1b45;
+    border-radius: 6px;
+    height: 44px;
+    margin-left: 5px;
+    width: 110px;
+}
+
+#id-button-login:hover,
+#id-button-register:hover,
+#id-button-sendEmail:hover,
+#id-button-captcha:hover {
+    background-color: #b4183d
+}
+
+
+h1.gua-title {
+    color: #000
+}
+
+.gua-title:hover {
+    background: 0 0
+}
+
+.gua-tab {
+    margin-top: 0
+}
+
+.gua-tab a {
+    color: #998f66
+}
+
+.gua-tab .active {
+    color: #d70f3f
+}
+
+.gua-tab .gua-block {
+    background: #d70f3f
+}
+
+div#id-form-question .text {
+    margin-top: 0;
+    margin-bottom: 30px
+}
+
+div#id-form-question .text p {
+    color: #000;
+    margin: 0
+}
+
+div.text {
+    padding: 2px 10px;
+    border: 1px solid #999
+}
+
+.topic-stamp {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 12px;
+    color: #fff;
+    vertical-align: middle;
+    background: #ff8c00;
+    border-radius: 5px
+}
+
+.footer {
+    box-sizing: border-box;
+    height: 51px;
+    padding-top: 15px;
+    text-align: center;
+    background: #cc3249
+}
+
+.footer a {
+    color: #eee
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: underline
+}
+
+.uploader {
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, .3);
+    margin: 10px 0px
+}
+
+.ul-latest-topic {
+    list-style-type: none
+}
+
+.gua-weibo {
+    margin: 20px;
+}
+
+#get-more {
+    text-align: center;
+}
+
+.main-notice {
+    text-align: center;
+}
+
+.red-key-word {
+    color: #cb1b45;
+}
+
+.index-main {
+    width: 90%;
+    max-width: 1400px;
+    min-width: 960px;
+    margin: 15px auto;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 767px){
+    .sidebar {
+        display: none;
+    }
+
+    main .lin-code-container {
+        float: left;
+        min-width: 100%;
+    }
+
+    main .lin-canvas-container {
+        float: left;
+        min-width: 100%;
+    }
+
+    main .console-container {
+        min-width: 100%;
+    }
+
+    #id-canvas {
+        background: #fff;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    main {
+        padding: 0;
+        display: inline-block;
+    }
+
+    #id-console {
+        /*background: red;*/
+        width: 100%;
+        display: block;
+    }
+}
+/*.unfade {*/
+/*    animation: myfirst 2s;*/
+/*}*/
+
+/*@keyframes myfirst*/
+/*{*/
+/*    0% {*/
+/*        opacity: 0.5;*/
+/*    }*/
+/*    50%  {*/
+/*        opacity: 0.7;*/
+/*    }*/
+/*    100% {*/
+/*        opacity: 1;*/
+/*    }*/
+/*}*/

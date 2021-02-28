@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+body,
+html {
+    height: 100%;
+    background-color: white;
+}
+
+body {
+    color: #333;
+    font-size: 14px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 18px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 12px
+}
+
+p {
+    margin: 0 0 10px
+}
+
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+a:focus {
+    text-decoration: none
+}
+
+.hidden {
+    display: none !important
+}
+
+.container {
+    width: 83%;
+    margin: 0 auto;
+    min-width: 750px
+}
+
+.gua-input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    margin: 10px 0;
+}
+
+textarea.gua-input {
+    height: auto;
+    margin: 10px 0;
+}
+
+select.gua-input {
+    display: inline-block;
+    width: 100px
+}
+
+.table {
+    display: table
+}
+
+.table .table-row {
+    display: table-row;
+    outline: 1px solid #fff
+}
+
+.table .table-cell {
+    display: table-cell;
+    padding: 5px;
+    vertical-align: middle
+}
+
+.table .table-cell + .table-cell {
+    border-left: 1px solid #fff
+}
+
+.gua-button {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #2e6da4;
+    border-radius: 2px;
+    margin: 10px 0;
+    color: #fff;
+    background: #337ab7;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center
+}
+
+.gua-button:hover {
+    background-color: #286090
+}
+
+.gua-button[disabled] {
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: .65
+}
+
+.gua-button-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c
+}
+
+.gua-button-success:hover {
+    background-color: #449d44;
+    border-color: #398439
+}

@@ -1,0 +1,36 @@
+{
+  "name": "arena",
+  "version": "2.1.5",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "packager": "electron-packager ./ Arena --out ./build --electron-version ^11.3.0 --overwrite --icon=./favicon.ico",
+    "dist": "electron-builder --win --x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-find": "^1.0.6",
+    "electron-packager": "^15.1.0",
+    "draggabilly": "^2.2.0"
+  },
+  "devDependencies": {
+    "electron": "^11.3.0",
+    "electron-find": "^1.0.6",
+    "electron-packager": "^15.2.0"
+  },
+  "keywords": [],
+  "description": "Arena 一款轻量级的 JS 编辑器",
+  "build": {
+    "productName": "Arena",
+    "appId": "com.Arean.app",
+    "copyright": "Juantu",
+    "directories": {
+      "output": "build"
+    },
+    "win": {
+      "icon": "./favicon.ico"
+    }
+  }
+}
